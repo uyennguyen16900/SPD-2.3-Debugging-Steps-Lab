@@ -18,7 +18,7 @@ Exercise 4
 # HINT: It may help to draw a picture to clarify what your assumptions are.
 
 def binary_search(arr, element, low=0, high=None):
-      """Returns the index of the given element within the array by performing a binary search."""
+    """Returns the index of the given element within the array by performing a binary search."""
     if high == None:
         high = len(arr) - 1
 
@@ -38,5 +38,5 @@ def binary_search(arr, element, low=0, high=None):
 
 
 if __name__ == '__main__':
-    answer = binary_search([1, 2, 4, 5, 7], 7)
+    answer = binary_search([1, 2, 4, 5, 7, 10, 15], 2)
     print(answer)
