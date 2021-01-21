@@ -6,9 +6,9 @@ Exercise 3
 #
 # TODO: Gather information about the source of the error and paste your findings here. E.g.:
 # - What is the expected vs. the actual output?
-# - What error message (if any) is there?
-# - What line number is causing the error?
-# - What can you deduce about the cause of the error?
+# - What error message (if any) is there? out of bound
+# - What line number is causing the error? 26
+# - What can you deduce about the cause of the error? check if j is greater than or equal to 0 in the while loop
 
 
 # PART 2: State Assumptions
@@ -23,7 +23,7 @@ def insertion_sort(arr):
         key = arr[i] 
 
         j = i-1
-        while j >=0 and key < arr[j] : 
+        while j >= 0 and key < arr[j] : 
             arr[j+1] = arr[j] 
             j -= 1
         arr[j+1] = key

@@ -7,8 +7,8 @@ Exercise 2
 # TODO: Gather information about the source of the error and paste your findings here. E.g.:
 # - What is the expected vs. the actual output?
 # - What error message (if any) is there?
-# - What line number is causing the error?
-# - What can you deduce about the cause of the error?
+# - What line number is causing the error? 24
+# - What can you deduce about the cause of the error? put return False outside the for loop
 
 
 # PART 2: State Assumptions

@@ -6,9 +6,9 @@ Exercise 4
 #
 # TODO: Gather information about the source of the error and paste your findings here. E.g.:
 # - What is the expected vs. the actual output?
-# - What error message (if any) is there?
-# - What line number is causing the error?
-# - What can you deduce about the cause of the error?
+# - What error message (if any) is there? recursion error
+# - What line number is causing the error? 34, 37
+# - What can you deduce about the cause of the error? decrement/increment mid by 1
 
 
 # PART 2: State Assumptions
